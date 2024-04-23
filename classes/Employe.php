@@ -1,7 +1,8 @@
 <?php
 
 // Création de la classe Employe
-class Employe {
+class Employe
+{
     private string $nom;
     private string $prenom;
     private DateTime $dateEmbauche;
@@ -10,7 +11,8 @@ class Employe {
 
 
     // Constructeur de la classe Employe
-    public function __construct(string $nom, string $prenom, string $dateEmbauche) {
+    public function __construct(string $nom, string $prenom, string $dateEmbauche)
+    {
         $this->nom = $nom;
         $this->prenom = $prenom;
         $this->dateEmbauche = new DateTime($dateEmbauche);
@@ -19,7 +21,7 @@ class Employe {
     }
 
     // Création des getters / setters
-    
+
 
     public function getNom()
     {

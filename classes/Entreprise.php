@@ -1,7 +1,8 @@
 <?php
 
 // Création de la classe Entreprise
-class Entreprise {
+class Entreprise
+{
     private string $raisonSociale;
     private string $adresse;
     private string $cp;
@@ -9,7 +10,8 @@ class Entreprise {
     private DateTime $dateCreation;
 
     // Constructeur de la classe Entreprise
-    public function __construct(string $raisonSociale, string $adresse, string $cp, string $ville, string $dateCreation) {
+    public function __construct(string $raisonSociale, string $adresse, string $cp, string $ville, string $dateCreation)
+    {
         $this->raisonSociale = $raisonSociale;
         $this->adresse = $adresse;
         $this->cp = $cp;
